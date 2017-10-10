@@ -2,6 +2,7 @@
 
 #include <cstring>
 
+
 Label::Label(Graphics *graph, TTF_Font *font, double x, double y, Color col, const std::string& string) :
     graphics ( graph ),
     font_ ( font ),
