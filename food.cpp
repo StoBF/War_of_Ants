@@ -20,6 +20,7 @@ Food::Food(const std::string &name ) :
 
 Food::~Food()
 {
+	
     mainScene->forgetFood( this );
 }
 void Food::print()
