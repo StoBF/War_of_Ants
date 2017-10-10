@@ -3,6 +3,7 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
 
+
 #define FIELD_WIDTH   400
 #define FIELD_HEIGHT  200
 #define BLOCK_SIZE    3
