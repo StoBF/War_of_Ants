@@ -40,6 +40,7 @@ Graphics::Graphics( const char *title, int width, int height ) :
 
 Graphics::~Graphics()
 {
+	
     TTF_Quit();
     SDL_Quit();
 }
