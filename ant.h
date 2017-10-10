@@ -42,6 +42,7 @@ private:
 	int Pos;
 	double Level;
 	double XP;
+	
 	double Spead;
 	double range;
 	double bag[6];
