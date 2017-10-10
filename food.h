@@ -8,6 +8,7 @@ class Food : public Block
 public:
     Food( const std::string& name );
     virtual ~Food();
+    
     virtual void draw();
 	virtual void print();
 private:
