@@ -6,6 +6,7 @@
 
 class Scene;
 
+
 class Block {
 public:
     static Scene *mainScene;
@@ -29,7 +30,7 @@ public:
     double distance(Block* target) const;
 
     enum Direction{ first, up = first, down, left, right, up_left, down_left, up_right, down_right, stay, end, last = end} ;
-    void step(Direction where,double a); //'a' приймає модифікатор на швидкість
+    void step(Direction where,double a); //'a' ГЇГ°ГЁГ©Г¬Г Вє Г¬Г®Г¤ГЁГґВіГЄГ ГІГ®Г° Г­Г  ГёГўГЁГ¤ГЄВіГ±ГІГј
 	bool isOn(Block* target); //const;
     bool isOn( Block** target,
                const std::vector<Block*> *reserve = 0);
