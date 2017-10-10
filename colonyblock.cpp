@@ -8,6 +8,7 @@ ColonyBlock::ColonyBlock( double x, double y, const std::string& name, Colony *c
 
 ColonyBlock::~ColonyBlock()
 {
+    
 }
 
 Colony *ColonyBlock::getColony() const
