@@ -33,6 +33,7 @@ public:
 
     void forgetFood( Food *what );
     void forgetColony( Colony *what );
+	
 private:
     bool dying;
 };
