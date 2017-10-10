@@ -6,6 +6,7 @@
 #include "block.h"
 #include "graphics.h"
 
+
 class Base;
 class Scene;
 class Ant;
