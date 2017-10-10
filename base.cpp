@@ -14,6 +14,7 @@ Base::~Base()
     getColony()->forgetBase( this );
 }
 
+
 void Base::draw()
 {
     mainScene->graphics->setColor( getColony()->color );
