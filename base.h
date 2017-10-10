@@ -16,4 +16,5 @@ private:
 
 };
 
+
 #endif // BASE_H
