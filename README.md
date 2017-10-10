@@ -1,6 +1,6 @@
 # War_of_Ants
 My_game
-With ++, SDL2.
+With C++, SDL2.
 The game is a 2D strategy using the SDL2 graphics library.
 Realized:
 - Two colonies with 20 units.
