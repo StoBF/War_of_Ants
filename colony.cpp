@@ -7,6 +7,7 @@
 #include "scene.h"
 #include "base.h"
 
+
 Colony::Colony( Scene * scene, Color col, double scoreX, double scoreY ) :
     mainScene( scene ),
     score( 0.0 ),
