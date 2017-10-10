@@ -9,6 +9,7 @@ class ColonyBlock : public Block
 public:
     ColonyBlock(double x, double y, const std::string &name, Colony *col);
     virtual ~ColonyBlock();
+    
     Colony *getColony() const;
     virtual void draw() = 0;
 
