@@ -68,6 +68,7 @@ double Block::distance(Block* target) const
     SDL_assert( delta>= 0);
     return sqrt(delta);
 }
+
 void Block::step(Direction where,double a)
 {
     SDL_assert( ( first <= where ) && ( where <= last ) );
