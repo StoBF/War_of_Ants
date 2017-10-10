@@ -1,4 +1,4 @@
-﻿#include "ant.h"
+#include "ant.h"
 #include "scene.h"
 
 //#include <cstdlib>
